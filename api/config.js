@@ -12,7 +12,7 @@ var enviroment = {
     redis: {
         url: 'redis://localhost/'
     },
-    db_prefix: '594157dcd5a84a7e8fc93627_miaguila_',
+    db_prefix: 'prefix_miaguila_',
     key_secret: 'key',
     url: '',
     s3url: ''

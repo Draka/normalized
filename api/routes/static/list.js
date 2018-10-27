@@ -1,6 +1,8 @@
 module.exports = (req, res, next) => {
     models.Trip.
-    find().
+    find({
+        status: 'finished'
+    }).
     limit(10).
     sort({
         createdAt: -1
