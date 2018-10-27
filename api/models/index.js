@@ -1,0 +1,1 @@
+exports.Trip = require('./trips');

@@ -1,0 +1,31 @@
+{
+    "indent": 2,
+    "browser": true,
+    "esnext": true,
+    "camelcase": false,
+    "curly": true,
+    "eqeqeq": true,
+    "latedef": true,
+    "immed": true,
+    "newcap": true,
+    "noarg": true,
+    "undef": true,
+    "unused": "vars",
+    "quotmark": "single",
+    "node": true,
+    "mocha": true,
+    "bitwise": false,
+    "predef": [
+        "mongoose",
+        "_",
+        "moment",
+        "async",
+        "request",
+        "config",
+        "redis",
+        "__",
+        "mongodb",
+        "listErrors",
+        "models"
+    ]
+}
