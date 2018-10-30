@@ -15,11 +15,15 @@
         "node": "10.x.x"
     },
     "dependencies": {
+        "async": "^2.6.1",
+        "bcrypt-nodejs": "0.0.3",
         "bluebird": "^3.5.2",
         "compression": "^1.7.3",
         "express": "^4.16.4",
         "http-errors": "^1.7.1",
+        "jsonwebtoken": "^8.3.0",
         "lodash": "^4.17.11",
+        "moment-timezone": "^0.5.23",
         "mongoose": "^5.3.7",
         "path": "^0.12.7",
         "serve-favicon": "^2.5.0"

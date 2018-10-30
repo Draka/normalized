@@ -26,6 +26,7 @@
         "__",
         "mongodb",
         "listErrors",
+        "checkAuth",
         "models"
     ]
 }

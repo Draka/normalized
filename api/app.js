@@ -38,6 +38,7 @@ app.use(require('./libs/crossdomain'));
 
 //Idioma
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(require('./libs/auth'));
 
 //carga de módulos
 

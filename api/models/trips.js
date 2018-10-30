@@ -1,6 +1,6 @@
 const Schema = mongoose.Schema;
 
-let schema = {
+let schema = new mongoose.Schema({
     driver_id: {
         type: Schema.Types.ObjectId,
         ref: `${config.db_prefix}drivers`,
@@ -70,7 +70,6 @@ let schema = {
     },
     arrived: {},
     finished: {}
-};
+});
 
 module.exports = mongoose.model(`${config.db_prefix}trips`, schema);
-console.log(`${config.db_prefix}trips`)
