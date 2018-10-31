@@ -1,4 +1,3 @@
-
 module.exports = (app) => {
   const {
     lstatSync,
@@ -17,12 +16,11 @@ module.exports = (app) => {
   });
 
   app.get(`/`, (req, res, next) => {
-    res.render('index');
-    // var memory = process.memoryUsage();
-    // res.send({
-    //   rss: memory.rss / 1048576,
-    //   heapTotal: memory.heapTotal / 1048576,
-    //   heapUsed: memory.heapUsed / 1048576
-    // })
+    var memory = process.memoryUsage();
+    res.send({
+      rss: memory.rss / 1048576,
+      heapTotal: memory.heapTotal / 1048576,
+      heapUsed: memory.heapUsed / 1048576
+    })
   });
 };
